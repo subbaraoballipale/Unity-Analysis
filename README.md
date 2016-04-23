@@ -394,7 +394,7 @@ public OneFrameData(float musicSec, int index, ButtonType buttonType, decimal ad
     IL_0036:  ldarg.0
     IL_0037:  call       instance class Alto.Scene.InGame.GirlButton Alto.Scene.InGame.NoteBase::get_TargetButton_()
     IL_003c:  callvirt   instance valuetype Alto.Scene.InGame.ButtonType Alto.Scene.InGame.ButtonBase::get_ButtonType_()
-    IL_0041:  ldc.i4.s   1000
+    IL_0041:  ldc.i4.s   1500
     IL_0042:  newobj     instance void [mscorlib]System.Decimal::.ctor(int32)
     IL_0047:  ldc.i4.s   0
     IL_0048:  ldarg.0
@@ -457,7 +457,7 @@ public OneFrameData(float musicSec, int index, ButtonType buttonType, decimal ad
     IL_0034:  call       instance bool Alto.Scene.InGame.NoteLong::AddPerfectChanceList(class [mscorlib]System.Collections.Generic.List`1<valuetype Alto.Scene.InGame.ButtonType>)
     IL_0039:  pop
     IL_003a:  nop
-    IL_003b:  ldc.i4.s   1000
+    IL_003b:  ldc.i4.s   1500
     IL_0040:  stloc.1
     IL_0041:  ldloc.1
     IL_0042:  nop
@@ -573,7 +573,7 @@ public OneFrameData(float musicSec, int index, ButtonType buttonType, decimal ad
     IL_005f:  ldarg.0
     IL_0060:  call       instance class Alto.Scene.InGame.NoteBatchInfomation/NoteInfomation Alto.Scene.InGame.NoteFlontBase::get_InfoData_()
     IL_0065:  ldfld      valuetype Alto.Scene.InGame.ButtonType Alto.Scene.InGame.NoteBatchInfomation/NoteInfomation::buttonType_
-    IL_006a:  ldc.i4     1000
+    IL_006a:  ldc.i4     1500
     IL_006b:  newobj     instance void [mscorlib]System.Decimal::.ctor(int32)
     IL_0070:  ldc.i4.s   0
     IL_0071:  ldarg.0
@@ -712,7 +712,7 @@ public OneFrameData(float musicSec, int index, ButtonType buttonType, decimal ad
     IL_0028:  ldarg.0
     IL_0029:  call       instance class Alto.Scene.InGame.NoteBatchInfomation/NoteInfomation Alto.Scene.InGame.NoteFlontBase::get_InfoData_()
     IL_002e:  ldfld      valuetype Alto.Scene.InGame.ButtonType Alto.Scene.InGame.NoteBatchInfomation/NoteInfomation::buttonType_
-    IL_0033:  ldc.i4.s   1000
+    IL_0033:  ldc.i4.s   1500
     IL_0034:  newobj     instance void [mscorlib]System.Decimal::.ctor(int32)
     IL_0039:  nop
     IL_003a:  ldc.i4.s   0
